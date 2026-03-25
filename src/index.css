@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6e6ff;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+}
+
+.animatedButton {
+  animation-duration: 10s;
+}
+
+.ql-container {
+  border: none !important;
+}
+.ql-toolbar {
+  border: none !important;
+}
+.ql-editor {
+  border: none !important;
+}
+
+.ql-editor img,
+.ql-editor iframe.ql-video {
+  max-width: 90% !important; /* force 75% of editor width */
+  height: 300px; /* fixed height */
+  display: block;
+  margin-block: 1rem;
+}
+.post-content {
+  max-width: 100%; /* never exceed parent width */
+  overflow-wrap: break-word; /* break long words */
+  word-break: break-word; /* ensure wrapping */
+  line-height: 1.6; /* improve readability */
+}
+
+.post-content img,
+.post-content video {
+  width: 100%; /* take full width of column */
+  height: auto; /* keep aspect ratio */
+  display: block;
+  margin: 1rem 0; /* spacing */
+  border-radius: 8px; /* polish */
+}
+#scrollableDiv::-webkit-scrollbar {
+  display: none;
+}
+#scrollableDiv {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
