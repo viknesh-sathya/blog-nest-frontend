@@ -28,9 +28,9 @@ export const FeaturedPosts = () => {
     <div className="mt-8 flex flex-col lg:flex-row gap-8 ">
       {/* FIRST POST */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
-        {featuredPosts[0] && (
+        {featuredPosts[0].img && (
           <Image
-            src={featuredPosts[0]}
+            src={featuredPosts[0].img}
             className="rounded-3xl object-cover w-full h-full"
             w="895"
           />

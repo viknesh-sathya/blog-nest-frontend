@@ -17,13 +17,13 @@ const HomePage = () => {
         {/* titles */}
         <div className="">
           <h1 className="text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold">
-            Blog It. Own It.
+            Unfiltered. Unstoppable. Unforgettable.
           </h1>
           <p className="mt-8 text-md md:text-xl lg:text-2xl">
-            From bold thoughts to raw vibes, drop it, own it, let it flow.
+            Your thoughts deserve a stage, start writing today.
           </p>
         </div>
-        <Link to="write" className=" hidden md:block relative">
+        <Link to="/write" className=" md:block relative">
           <svg
             viewBox="0 0 200 200"
             width="200"
