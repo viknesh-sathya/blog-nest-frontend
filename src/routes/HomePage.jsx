@@ -3,7 +3,7 @@ import { MainCategories } from '../components/MainCategories';
 import { FeaturedPosts } from '../components/FeaturedPosts';
 import { PostList } from '../components/PostList';
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <div className=" mt-4 flex flex-col gap-4">
       {/* <BREADCRUMB /> */}
@@ -73,4 +73,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;

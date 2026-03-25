@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Homepage from './routes/Homepage.jsx';
+import HomePage from './routes/HomePage.jsx';
 import PostListPage from './routes/PostListPage.jsx';
 import { Write } from './routes/Write.jsx';
 import { LoginPage } from './routes/LoginPage.jsx';
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Homepage />,
+        element: <HomePage />,
       },
       {
         path: '/posts',
