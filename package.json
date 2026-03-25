@@ -1,7 +1,7 @@
 {
-  "name": "lamadevblogapp",
+  "name": "blog-nest",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,8 +15,8 @@
     "axios": "^1.13.6",
     "dompurify": "^3.3.3",
     "imagekitio-react": "^4.3.0",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "react-infinite-scroll-component": "^6.1.1",
     "react-quill-new": "^3.8.3",
     "react-router-dom": "^7.13.1",
