@@ -73,7 +73,7 @@ export const SideMenu = () => {
           className="underline text-blue-800 cursor-pointer"
           onClick={() => handleCategoryChange('general')}
         >
-          All
+          General
         </span>
         <span
           className="underline text-blue-800 cursor-pointer"
